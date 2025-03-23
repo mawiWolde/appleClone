@@ -1,47 +1,64 @@
-/* General Styling*/
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: "Montserrat", sans-serif;
-}
-a {
-  color: #06c;
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
 }
 img {
-  max-width: 100%;
+  width: 100%;
 }
-.white {
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+/*header-wrapper start here*/
+.header-wrapper {
+  background: black;
   color: #fff;
-}
-.black {
-  color: #1d1d1f;
-}
-.grey {
-  color: #86868b;
-}
-.top-50 {
-  margin-top: 50px;
-}
-.top-100 {
-  margin-top: 100px;
-}
-/* Header Style */
-.nav-wrapper {
-  background: rgba(0, 0, 0, 0.8);
-  font-size: 0.85em;
   font-weight: 200;
+  font-size: 0.75em;
 }
-.nav-wrapper ul li a {
-  color: #fff;
+
+.header-wrapper ul {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  /* For older WebKit browsers */
+  /* Modern alignment */
+  /* Vertically aligns items */
 }
-.navbar-toggler {
-  color: #fff;
+.internal-wrapper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
 }
-.nav-item {
-  text-align: left !important;
-  padding: 4px 0;
-  border-bottom: 1px solid #4b4b4b;
+.header-wrapper .header-links-wrapper ul :hover {
+  color: #cad0d7;
+  opacity: 2;
+}
+
+.header-wrapper .header-links-wrapper ul {
+  list-style-type: none; /* Removes bullets */
+  align-items: center; /* Aligns items vertically in the same line */
+}
+.header-wrapper .header-links-wrapper ul li {
+  display: inline-block; /* Makes list items appear side-by-side */
+  padding: 14px 0 8px; /* Adds space inside the element (top, left/right, bottom) */
+  height: 25px; /* Sets the height of the list items */
+  opacity: 0.6; /* Makes the element slightly transparent */
+  cursor: pointer;
+}
+
+.logo-link,
+.search-link,
+.cart-link {
+  width: 18px;
+  display: block;
+}
+.header-wrapper .header-links-wrapper ul li.logo-link {
+  padding: 12px 0 10px;
+}
+.header-wrapper .header-links-wrapper ul li.search-link {
+  padding: 14px 0 8px;
+}
+.header-wrapper .header-links-wrapper ul li.cart-link {
+  padding: 12px 0 10px;
 }
