@@ -62,3 +62,83 @@ body {
 .header-wrapper .header-links-wrapper ul li.cart-link {
   padding: 12px 0 10px;
 }
+
+.links-wrapper {
+  padding: 15px 0;
+}
+
+.links-wrapper ul {
+  list-style: none;
+}
+
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+
+.links-wrapper ul li a:hover {
+  color: #000;
+}
+
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+.description-wraper {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.last-highlight-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.last-apple-laptop {
+  background-image: url("images/home/macbook-pro.jpg");
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+  margin: 1% 0.5% 0% 1%;
+  height: 540px;
+  width: 48.5%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.the-newipad-wrapper {
+  background-image: url(images/home/new-ipad.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: initial;
+  margin: 1% 0.5% 0% 0.5%;
+  height: 580px;
+  width: 48.5%;
+}
+
+.last-outer-wrapper {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.model {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.last-logo-wrapper img {
+  align-items: center;
+  width: 76px;
+  height: 58px;
+}
