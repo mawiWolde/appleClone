@@ -105,7 +105,7 @@ body {
 }
 
 .last-apple-laptop {
-  background-image: url("images/home/macbook-pro.jpg");
+  background-image: url("../images/home/macbook-pro.jpg");
   background-repeat: no-repeat;
   background-size: initial;
   background-color: #fafafa;
@@ -118,7 +118,7 @@ body {
 }
 
 .the-newipad-wrapper {
-  background-image: url(images/home/new-ipad.jpg);
+  background-image: url(../images/home/new-ipad.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: initial;
