@@ -20,6 +20,7 @@
 .product-title {
     font-weight: 700;
     font-size: 3.5rem;
+    text-align: center;
 }
 .main-brif-description {
     font-size: 2.2em;
@@ -30,10 +31,12 @@
 .links-wrapper ul li {
     display: inline-block;
     padding-right: 20px;
+    text-align: center;
 }
 .links-wrapper ul li a {
     color: #06c;
     text-decoration: none;
+    text-align:
 }
 .links-wrapper ul li a:hover {
     color: #000;
@@ -48,8 +51,10 @@
 /*second-hightlight-wrapper*/
 
 .second-hightlight-wrapper {
-    background-image: url("images/home/iphone11-pro-bg.jpg");
+    background-image: url("/appleClone/images/home/iphone11-pro-bg.jpg");
     height: 580px;
+background-position: center;
+background-repeat: no-repeat;
 
     padding: 65px 20px;
     color: #fff;
@@ -57,14 +62,17 @@
 .title-wraper {
     font-weight: 600;
     font-size: 56px;
+    text-align: center;
 }
 .second-brief-description {
     font-size: 26px;
     padding: 10px 0;
+    text-align: center;
 }
 .price-wrapper {
     color: #86868b;
     font-size: 0.85em;
+    text-align: center;
 }
 /*3-highlight-wrapper-->*/
 
