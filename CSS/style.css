@@ -4,8 +4,8 @@
     background: #fafafa;
     text-align: center;
     padding: 25px 0;
-  }
-  .main-highlight-wrapper img {
+}
+.main-highlight-wrapper img {
     width: 710px;
 }
 .links-wrapper ul {
@@ -36,7 +36,6 @@
 .links-wrapper ul li a {
     color: #06c;
     text-decoration: none;
-    text-align:
 }
 .links-wrapper ul li a:hover {
     color: #000;
@@ -74,11 +73,16 @@ background-repeat: no-repeat;
     font-size: 0.85em;
     text-align: center;
 }
-/*3-highlight-wrapper-->*/
-
 .third-highlight-wrapper {
-    background-image: url("images/home/iphone11-bg.jpg");
-    height: 580px;
+    background-image: url("/appleClone/images/home/iphone11-bg.jpg");
+    height: 580px;third-highlight-wrapper {
+        background-image: url("images/home/iphone11-bg.jpg");
+        height: 580px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 65px 20px; }
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
